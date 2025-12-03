@@ -14,7 +14,8 @@ This project demonstrates efficient walking using only **6 servos** (1 DOF per l
 - **Knee Joints:** Passive with mechanical stops (~±7.5°)  
 - **Walking Modes:** Forward and backward (automatic direction reversal supported)  
 - **Gait:** Tripod gait for smooth, stable locomotion  
-- **Power:** 6 V Li-ion / NiMH battery (low & centered for stability)
+- **Power:** 6 V battery pack (low & centered for stability)
+- **Speed:** 1.3 body lengths/s (0.24 m/s)
 
 ---
 
@@ -33,14 +34,13 @@ This project demonstrates efficient walking using only **6 servos** (1 DOF per l
 
 ## 🔩 Mechanical Design
 
-- Upper leg length: ~55–60 mm  
-- Lower leg length: ~45–50 mm  
+- Upper leg length: ~60 mm  
+- Lower leg length: ~50 mm  
 - Legs offset 26 mm from body centerline  
 - Mechanical stops limit knee motion:
-  - **Forward Stop:** ~7.5° forward of vertical
-  - **Backward Stop:** ~7.5° backward of vertical  
-- Optional elastic assist to lift lower leg during swing  
-- Rubber or MDF feet with rounded toe to prevent catching  
+  - **Forward Stop:** ~7.5° forward of vertical 
+- Elastic assist to lift lower leg during swing  
+- Rubber feet with rounded toe to prevent catching  
 
 ---
 
