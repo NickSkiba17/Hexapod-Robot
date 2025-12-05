@@ -1,7 +1,7 @@
 # 🐜 Hexapod Tripod Gait (Arduino)
 
 A bio-inspired six-legged (hexapod) robot designed to mimic ant locomotion using a simple, stable **tripod gait**.  
-This project demonstrates efficient walking using only **6 servos** (1 DOF per leg) and **passive mechanical knees** with forward and backward stops.
+This project demonstrates efficient walking using only **6 servos** (1 DOF per leg) and **passive mechanical knees** with forward stops.
 
 ---
 
@@ -84,7 +84,7 @@ This project demonstrates efficient walking using only **6 servos** (1 DOF per l
 | `swingMin` | Max backward swing angle | -20° |
 | `stepDelay` | Time per half-step | 800 ms |
 | `smoothSteps` | Steps for interpolation | 20 |
-| `direction` | 1 = forward, -1 = backward | — |
+| `direction` | 1 = forward |
 
 ---
 
@@ -104,6 +104,5 @@ This project demonstrates efficient walking using only **6 servos** (1 DOF per l
 
 1. **Single Leg Test:** Sweep one servo slowly and confirm stops engage correctly.  
 2. **Tripod Dry Run:** Test small amplitude (±10°) to verify gait timing.  
-3. **Forward Walk:** Walk forward 5 m, fine-tune step size if dragging occurs.  
-4. **Backward Walk:** Reverse `direction` to confirm symmetrical clearance.  
+3. **Forward Walk:** Walk forward 5 m, fine-tune step size if dragging occurs.
 5. **Full Test:** Run 5 m forward + 5 m backward with tuned stride. 
